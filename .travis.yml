@@ -45,8 +45,6 @@ before_script:
 services:
   - mongodb
   - postgresql
-# temporarily disable riak. failing, docs offline.
-#  - riak
 
 # Can't use container based infra because of hosts/hostname
 sudo: true
