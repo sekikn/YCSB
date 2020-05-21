@@ -43,7 +43,6 @@ before_script:
 
 # Services to start for tests.
 services:
-  - ignite
   - mongodb
   - postgresql
 # temporarily disable riak. failing, docs offline.
